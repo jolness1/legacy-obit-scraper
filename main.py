@@ -210,8 +210,8 @@ def main():
     output_file = 'possibilities.csv'
     
     # Determine which file to process
-    files_to_process = [test_file]  # Change this to your desired files
-    # files_to_process = [nursing_file, physician_file]
+    # files_to_process = [test_file]  # Change this to your desired files
+    files_to_process = [nursing_file, physician_file]
     
     # Get fieldnames from first file
     try:

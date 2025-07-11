@@ -299,11 +299,11 @@ async def main():
     output_file = 'possibilities.csv'
     
     # Configuration
-    MAX_CONCURRENT = 10  # Adjust based on your comfort level and IP limits
-    BATCH_SIZE = 50      # Process this many records before saving progress
+    MAX_CONCURRENT = 25  # adjust down if we get rate limited
+    BATCH_SIZE = 50      # process this many records before saving progress
     
     # Determine which file to process
-    files_to_process = [nursing_file, physician_file]  # Change this to your desired files
+    files_to_process = [nursing_file, physician_file]  
     
     for file_path in files_to_process:
         print(f"\n{'='*50}")

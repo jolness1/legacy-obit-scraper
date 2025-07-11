@@ -1,7 +1,7 @@
 {
-  "last_processed_index": 729,
-  "timestamp": "2025-07-11T22:04:30.642172",
+  "last_processed_index": 40351,
+  "timestamp": "2025-07-11T23:00:29.782895",
   "file_path": "./nursing-licenses.csv",
-  "total_found": 26,
-  "total_processed": 540
+  "total_found": 633,
+  "total_processed": 21622
 }

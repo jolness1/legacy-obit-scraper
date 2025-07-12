@@ -299,8 +299,8 @@ async def main():
     output_file = 'possibilities.csv'
     
     # Configuration
-    MAX_CONCURRENT = 25  # adjust down if we get rate limited
-    BATCH_SIZE = 50      # process this many records before saving progress
+    MAX_CONCURRENT = 2  # adjust down if we get rate limited
+    BATCH_SIZE = 20      # process this many records before saving progress
     
     # Determine which file to process
     files_to_process = [nursing_file, physician_file]  

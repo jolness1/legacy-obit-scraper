@@ -1,4 +1,4 @@
-# License Search Application
+# Legacy.com Search Application
 
 This project is designed to search for obituaries of licensed nursing and physician professionals in Montana. It iterates through CSV files containing license data and constructs search queries to find relevant obituary entries.
 

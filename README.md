@@ -5,12 +5,12 @@ This project is designed to search for obituaries of licensed nursing and physic
 ## Project Structure
 
 ```
-license-search-app
-├── src
-│   ├── main.py                # Main script for searching obituaries
-│   ├── nursing-licenses.csv    # CSV file containing nursing license data
-│   ├── physician-licenses.csv   # CSV file containing physician license data
-│   └── possibilities.txt       # File to log found obituary results
+├── legacy-obit-scraper
+│── main.py
+│── main-parallel.py
+│── nursing-licenses.csv    # CSV file containing nursing license data
+│── physician-licenses.csv   # CSV file containing physician license data
+│── possibilities.csv       # File to log found obituary results
 ├── requirements.txt            # List of project dependencies
 ├── README.md                   # Project documentation
 └── venv/                       # Virtual environment for dependencies
